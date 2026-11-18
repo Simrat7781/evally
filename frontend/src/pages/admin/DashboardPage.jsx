@@ -74,7 +74,7 @@ export default function DashboardPage() {
           </div>
         ) : (
           <ul className="divide-y divide-gray-50">
-            {assessments.slice(0, 10).map(a => (
+            {assessments.map(a => (
               <li
                 key={a.id}
                 className="px-6 py-4 flex items-center justify-between hover:bg-gray-50 cursor-pointer transition"
